@@ -27,16 +27,10 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Firmware
 $(call inherit-product, vendor/apps/firmware-sagit/config.mk)
 
-# GooglePinYin
-$(call inherit-product-if-exists, vendor/apps/GooglePinYin/config.mk)
-
 # MiuiCamera
 $(call inherit-product-if-exists, vendor/apps/MiuiCamera/config.mk)
 
-# ScreenRecorder
-$(call inherit-product-if-exists, vendor/apps/OPScreenRecord/config.mk)
-
-PRODUCT_NAME := aosp_sagit
+PRODUCT_NAME := qassa_sagit
 PRODUCT_DEVICE := sagit
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 6
