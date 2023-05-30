@@ -158,4 +158,7 @@
     <!-- Whether or not swipe up gesture's opt-in setting is available on this device -->
     <bool name="config_swipe_up_gesture_setting_available">true</bool>
 
+    <!-- Height of the status bar -->
+    <dimen name="status_bar_height_portrait">90.0px</dimen>
+    <dimen name="status_bar_height_landscape">86.0px</dimen>
 </resources>
