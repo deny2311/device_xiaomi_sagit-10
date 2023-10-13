@@ -42,6 +42,9 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 # optout QTI Perf
 QTI_OPTOUT := true
 
+# optout Aperture camera ( by default prebuilt Aperture camera )
+TARGET_APERTURE_OPTOUT := true
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
